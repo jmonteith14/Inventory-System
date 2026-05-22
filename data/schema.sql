@@ -3,8 +3,10 @@ IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'Inventory_System')
 BEGIN
 	CREATE DATABASE Inventory_System;
 END;
+GO
 
 USE Inventory_System
+GO
 
 CREATE TABLE Categories (
 Category_ID int IDENTITY(1,1) PRIMARY KEY NOT NULL,

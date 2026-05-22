@@ -1,5 +1,6 @@
 
 USE Inventory_System
+GO
 
 INSERT INTO Categories
 VALUES
